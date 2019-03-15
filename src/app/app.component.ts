@@ -9,4 +9,12 @@ export class AppComponent {
   data = {
     title: 'CORE!'
   };
+
+  onLogoClick() {
+    alert('Hello World!');
+  }
+
+  onKeyUp(newTitle: string) {
+    this.data.title = newTitle;
+  }
 }
